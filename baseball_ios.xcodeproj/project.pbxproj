@@ -19,6 +19,8 @@
 		94B3E1AE19DBB49100A1B8E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B3E19619DBB49100A1B8E9 /* UIKit.framework */; };
 		94B3E1B619DBB49100A1B8E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94B3E1B419DBB49100A1B8E9 /* InfoPlist.strings */; };
 		94B3E1B819DBB49100A1B8E9 /* baseball_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B3E1B719DBB49100A1B8E9 /* baseball_iosTests.m */; };
+		94B3E1C219DBB4D800A1B8E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B3E1C119DBB4D800A1B8E9 /* Main.storyboard */; };
+		94B3E1C519DBB61700A1B8E9 /* XYZBaseballAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B3E1C419DBB61700A1B8E9 /* XYZBaseballAppViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		94B3E1B319DBB49100A1B8E9 /* baseball_iosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "baseball_iosTests-Info.plist"; sourceTree = "<group>"; };
 		94B3E1B519DBB49100A1B8E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		94B3E1B719DBB49100A1B8E9 /* baseball_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = baseball_iosTests.m; sourceTree = "<group>"; };
+		94B3E1C119DBB4D800A1B8E9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		94B3E1C319DBB61700A1B8E9 /* XYZBaseballAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZBaseballAppViewController.h; sourceTree = "<group>"; };
+		94B3E1C419DBB61700A1B8E9 /* XYZBaseballAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZBaseballAppViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				94B3E1A119DBB49100A1B8E9 /* XYZAppDelegate.h */,
 				94B3E1A219DBB49100A1B8E9 /* XYZAppDelegate.m */,
+				94B3E1C119DBB4D800A1B8E9 /* Main.storyboard */,
+				94B3E1C319DBB61700A1B8E9 /* XYZBaseballAppViewController.h */,
+				94B3E1C419DBB61700A1B8E9 /* XYZBaseballAppViewController.m */,
 				94B3E1A419DBB49100A1B8E9 /* Images.xcassets */,
 				94B3E19919DBB49100A1B8E9 /* Supporting Files */,
 			);
@@ -220,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94B3E1C219DBB4D800A1B8E9 /* Main.storyboard in Resources */,
 				94B3E19D19DBB49100A1B8E9 /* InfoPlist.strings in Resources */,
 				94B3E1A519DBB49100A1B8E9 /* Images.xcassets in Resources */,
 			);
@@ -240,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94B3E1C519DBB61700A1B8E9 /* XYZBaseballAppViewController.m in Sources */,
 				94B3E1A319DBB49100A1B8E9 /* XYZAppDelegate.m in Sources */,
 				94B3E19F19DBB49100A1B8E9 /* main.m in Sources */,
 			);
